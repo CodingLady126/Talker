@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+
+    tools:context="com.islavstan.free_talker.main.MainActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_above="@+id/adView"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="32dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/onlineTV"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:text="@string/online_loading"/>
+
+            <ImageButton
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/refreshBtn"
+                android:padding="4dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:src="@drawable/refresh"
+                />
+        </LinearLayout>
+        <Button
+            android:id="@+id/level1Btn"
+            android:textStyle="bold"
+            android:background="@color/white"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/talk_to_level_1" />
+
+        <Button
+            android:textStyle="bold"
+            android:background="@color/white"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/level2Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/talk_to_level_2" />
+        <Button
+            android:textStyle="bold"
+            android:background="@color/white"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/lastCallerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/call_last_caller" />
+
+
+        <Button
+            android:textStyle="bold"
+            android:background="@color/white"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/blockBtn"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/block_ads_in_application" />
+
+        <Button
+            android:textStyle="bold"
+            android:background="@color/white"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/shareBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/share_app" />
+
+        <Button
+            android:textStyle="bold"
+            android:background="@color/white"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/femaleBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/talk_to_female" />
+
+
+    </LinearLayout>
+</ScrollView>
+
+  <com.google.android.gms.ads.AdView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_home_footer">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

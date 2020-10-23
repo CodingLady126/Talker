@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentIncomeCall"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+   >
+
+
+    <include
+        android:id="@+id/call_view"
+        layout="@layout/call_view_outgoing_screen" />
+
+    <Chronometer
+        android:id="@+id/chronometer_timer_audio_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/call_view"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+    <include layout="@layout/call_view_action_buttons_conversation_fragment" />
+    <LinearLayout
+        android:id="@+id/layout_info_about_call"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="64dp"
+        android:paddingRight="64dp"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/text_caller_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="24dp"
+            android:textColor="#1f1f1f"
+            android:textSize="22sp" />
+        <TextView
+            android:id="@+id/text_also_on_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="also on call"
+            android:textColor="#6e6e6e"
+            android:textSize="20sp"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/text_other_inc_users"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textColor="#6e6e6e"
+            android:textSize="16sp"
+            android:visibility="gone"
+            tools:text="User 1, User 2, User 3, User 4, User 5, User 6" />
+
+    </LinearLayout>
+</RelativeLayout>

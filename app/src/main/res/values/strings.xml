@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">IELTS Live Speaking</string>
+
+    <!-- register-->
+    <string name="date_of_birth">Year of Birth</string>
+    <string name="sex">Sex</string>
+    <string name="register">Register</string>
+    <string name="blank_fields">fields cannot be empty</string>
+    <string name="registration_success">Registration success</string>
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please wait</string>
+
+    <string name="no_internet">No internet connection</string>
+    <string name="birthday">Your birthday</string>
+    <string name="free">This feature is available in the paid version</string>
+
+
+    <!--main screen-->
+    <string name="talk_to_level_1">Talk to Level-1 Speaker</string>
+    <string name="talk_to_level_2">Talk to Level-2 Speaker</string>
+    <string name="block_ads_in_application">Block Ads in Application</string>
+    <string name="share_app">Share App in Whatsapp</string>
+    <string name="talk_to_female">Talk to Female Speaker</string>
+    <string name="online">Online: Male 0, Female 0</string>
+    <string name="online_loading">Online: Loading ...</string>
+
+    <!--  date picker-->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+
+    <string name="calling">Calling...</string>
+    <string name="income_call">Incoming call</string>
+    <string name="looking_for_an_opponent">Looking for an opponent...</string>
+
+    <string name="no_users_online">No users online, try later</string>
+    <string name="whatsapp">Whatsapp is not installed in this device</string>
+    <string name="conversation">Conversation</string>
+
+    <string name="conversation_level2">To enjoy this feature, you need 20 conversations that last more than 4 minutes. Currently you have</string>
+
+    <string name="banner_home_footer">ca-app-pub-4467605775739134/4880876003</string>
+
+    <string name="sender_id">863072822950</string>
+
+    <string name="user_blocked">User blocked</string>
+    <string name="call_last_caller">Call last caller</string>
+    <string name="need_conversation">You can use this function after the next conversation</string>
+
+
+
+    <string name="update">Update</string>
+    <string name="update_text">Please update your IELTS Live Speaking
+Before using for better quality and new features!</string>
+
+
+
+
+
+
+    <string-array name="sex_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

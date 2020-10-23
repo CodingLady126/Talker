@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="48dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:id="@+id/date_of_birth"
+            android:background="@drawable/bg_edittext"
+            android:padding="14dp"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/date_of_birth"
+            android:inputType="none"
+            android:focusableInTouchMode="false"
+            android:cursorVisible="false"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_edittext"
+            android:inputType="none"
+            android:padding="14dp"
+            android:focusableInTouchMode="false"
+            android:cursorVisible="false"
+            android:id="@+id/sex"
+            android:hint="@string/sex"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textStyle="bold"
+            android:background="@color/white"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/registerBtn"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

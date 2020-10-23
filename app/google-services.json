@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "863072822950",
+    "firebase_url": "https://talker-b1cd4.firebaseio.com",
+    "project_id": "talker-b1cd4",
+    "storage_bucket": "talker-b1cd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863072822950:android:a44b5297097fd032",
+        "android_client_info": {
+          "package_name": "com.islavstan.free_talker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863072822950-832d71j08ldb7es6nrqc2lpv4ibnbnb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMNyHlcZbBF2RUdgJTvt--9Dei1Ccndiw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
